@@ -24,3 +24,26 @@ header {
   cursor: pointer;
 }
 
+.header-banner {
+  background: var(--black);
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.body-header-banner{
+  background: var(--white);
+  padding: 1em 4em;
+  height: 450px;
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.body-header-banner h1{
+  font-size: 4em;
+}

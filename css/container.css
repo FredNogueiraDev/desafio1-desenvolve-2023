@@ -6,12 +6,13 @@
 .slide img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .container {
   width: 60%;
   display: flex;
-  margin: 0 auto;
+  margin: 2em auto;
   flex-direction: column;
 }
 
@@ -28,14 +29,14 @@
   height: auto;
 }
 
-.div-banner-h1{
+.div-banner-h1 {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.banner-h1{
+.banner-h1 {
   margin-left: 2em;
   color: var(--black2);
   font-size: 4em;
@@ -120,7 +121,7 @@ input[type="radio"] {
   padding: 1.8em 0;
   width: 100%;
   background: var(--pink2);
-  margin: 1em 0;
+  margin: 1em 0 0 0;
 
   display: flex;
   flex-direction: column;
@@ -132,21 +133,19 @@ input[type="radio"] {
   width: 60%;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 2em 0 2em 4em;
-
-  /* background: red; */
 }
 
-.card-p1{
+.card-p1 {
   font-weight: 600;
   font-size: 1.5em;
 }
 
-.card-p2{
+.card-p2 {
   font-weight: 600;
   font-size: 2em;
   margin: 0;
@@ -157,6 +156,41 @@ input[type="radio"] {
 }
 
 .promo-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   background: var(--pink4);
-  margin: 0;
+  padding: 2em 0;
+  margin-bottom: 2em;
+}
+
+.promo-banner h2 {
+  text-align: center;
+  width: 60%;
+  font-size: 3.5em;
+}
+
+.takeaway {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--gray2);
+  margin: 1em 0;
+}
+
+.takeaway-body {
+  width: 60%;
+  padding: 3em 0;
+}
+
+.takeaway-title {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.takeaway li{ 
+  margin-left: 1em;
 }
