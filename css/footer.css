@@ -1,0 +1,30 @@
+footer {
+  background: var(--black);
+  padding: 1.5em 0;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+}
+
+.body-footer {
+  width: 60%;
+}
+
+.body-footer span {
+  margin-bottom: 0.5em;
+}
+
+.body-footer p {
+  margin: 0;
+}
+
+.body-footer img {
+  height: 2em;
+  margin: 0.5em 1em 0.5em 0;
+  cursor: pointer;
+}
+
+.body-footer a {
+  color: var(--white);
+  font-weight: bold;
+}

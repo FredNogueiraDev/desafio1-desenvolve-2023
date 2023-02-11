@@ -1,0 +1,26 @@
+header {
+  background: var(--black);
+  padding: 2em 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-model-light {
+  background: var(--white);
+}
+
+.header-model1 img, .header-model-light img {
+  margin-left: 8em;
+  height: 2.3em;
+  cursor: pointer;
+}
+
+.header-model2 img{
+  margin: 0 auto;
+  padding: 2em;
+  height: 3.5em;
+  cursor: pointer;
+}
+
